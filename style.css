@@ -1,0 +1,129 @@
+html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100vh;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+      position: fixed;
+      width: 100%;
+      height: 80px;
+}
+
+.brand, .search, .menu {
+      position: absolute;
+      line-height: 80px;
+}
+
+.brand {
+      margin-left: 40px;
+      font-family: "Monument Extended";
+      color: #fff;
+      font-size: 16px;
+}
+
+.search {
+      right: 140px;
+      color: #fff;
+}
+
+.menu{
+      right: 40px;
+      font-family: Helvetica;
+      color: #fff;
+      font-size: 20px;
+}
+
+.media {
+      position: absolute;
+      right: -150px;
+      top: 50%;
+      transform: rotate(90deg);
+}
+
+.media ul {
+      list-style: none;
+}
+
+.media ul li {
+      display: inline-block;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, .7);
+      font-family: Helvetica;
+      font-size: 12px;
+      font-weight: 300;
+      letter-spacing: 2px;
+      margin-right: 40px;
+}
+
+.share {
+      position: absolute;
+      bottom: 30px;
+      left: 40px;
+      color: #fff;
+      font-size: 20px;
+}
+
+.header {
+      position: absolute;
+      top: 45%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #fff;
+      font-family: "Monument Extended";
+      font-size: 40px;
+      letter-spacing: 3px;
+}
+
+h1 span {
+      -webkit-text-stroke: 1px #fff;
+      color: rgba(0,0,0,0);
+}
+
+.bottomnav {
+      position: absolute;
+      width: 45%;
+      height: 80px;
+      bottom: -40px;
+      background: #fff;
+      left: 50%;
+      transform: translate(-50%, -50%);
+}
+
+.bottomnav ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      line-height: 80px;
+      float: right;
+}
+
+.bottomnav ul li {
+      padding-right: 50px;
+      display: inline-block;
+}
+
+.bar {
+      position: absolute;
+      margin: 0;
+      background: rgba(0,0,0,0.3);
+      width: 50%;
+      height: 1px;
+      top: 50%;
+      left: 19%;
+}
+
+.counter {
+      position: absolute;
+      font-family: Poppins;
+      font-weight: bolder;
+      color: #000;
+      line-height: 80px;
+      padding-left: 50px;
+}
